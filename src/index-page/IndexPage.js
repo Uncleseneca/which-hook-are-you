@@ -17,11 +17,11 @@ export const IndexPage = () => {
   return (
     <div className={s.indexPage}>
       <header className={s.header}>
-        <h1 className={s.hero}> Which hook are you?</h1>
+        <h1 className={s.hero}> Какой ты хук?</h1>
         <img className={s.image} src="/thinking.png" alt="" />
       </header>
       <aside className={s.aside}>
-        <p>Answer the questions and find out which hook are you!</p>
+        <p>Ответь на вопросы узнай, какой ты хук!</p>
       </aside>
       {questions.map(question => (
         <Select key={question.question} question={question} />
@@ -29,7 +29,7 @@ export const IndexPage = () => {
       {readyForSubmit && (
         <div className={s.submitSection}>
           <button className={s.submitButton} onClick={onSubmit}>
-            Submit result!
+            Отправить!
           </button>
         </div>
       )}

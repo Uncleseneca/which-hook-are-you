@@ -1,6 +1,6 @@
 export const questions = [
   {
-    question: 'Pick a color',
+    question: 'Выбери цвет',
     type: 'withImage',
     options: [
       {
@@ -124,7 +124,7 @@ export const questions = [
     ]
   },
   {
-    question: 'Pick a movie',
+    question: 'Выбери фильм',
     type: 'withImage',
     options: [
       {
@@ -257,7 +257,7 @@ export const questions = [
     ]
   },
   {
-    question: 'Pick a song',
+    question: 'Выбери песню',
     type: 'withImage',
     options: [
       {
@@ -390,11 +390,11 @@ export const questions = [
     ]
   },
   {
-    question: 'On a friday night you can be found',
+    question: 'Где ты в пятницу вечером?',
     type: 'text',
     options: [
       {
-        text: 'On a date',
+        text: 'На свиданке',
         id: 0,
         points: {
           useState: 10,
@@ -407,7 +407,7 @@ export const questions = [
         }
       },
       {
-        text: 'Wondering what your ex is doing',
+        text: 'Думаю о бывшей',
         id: 1,
         points: {
           useState: 4,
@@ -420,7 +420,7 @@ export const questions = [
         }
       },
       {
-        text: 'Hanging out with your kid(s)',
+        text: 'Провожу время с семьей',
         id: 2,
         points: {
           useState: 10,
@@ -433,7 +433,7 @@ export const questions = [
         }
       },
       {
-        text: 'Drinking with frinds at party',
+        text: 'Бухаю с друзьями',
         id: 3,
         points: {
           useState: 3,
@@ -446,7 +446,7 @@ export const questions = [
         }
       },
       {
-        text: 'Sleeping',
+        text: 'Сплю',
         id: 4,
         points: {
           useState: 1,
@@ -459,7 +459,7 @@ export const questions = [
         }
       },
       {
-        text: 'Dancing at a club',
+        text: 'Тусуюсь в клубе',
         id: 5,
         points: {
           useState: 3,
@@ -473,7 +473,7 @@ export const questions = [
       },
 
       {
-        text: 'Making dinner and watching movie at home',
+        text: 'Смотрю кино дома',
         id: 6,
         points: {
           useState: 1,
@@ -486,7 +486,7 @@ export const questions = [
         }
       },
       {
-        text: 'Playing board games',
+        text: 'Играю в настолки',
         id: 7,
         points: {
           useState: 8,
@@ -501,11 +501,11 @@ export const questions = [
     ]
   },
   {
-    question: 'Pick a superpower',
+    question: 'Выбери суперспособность',
     type: 'text',
     options: [
       {
-        text: 'Invisibility',
+        text: 'Невидимость',
         id: 0,
         points: {
           useState: 10,
@@ -518,7 +518,7 @@ export const questions = [
         }
       },
       {
-        text: 'Time travel',
+        text: 'Путешествие во времени',
         id: 1,
         points: {
           useState: 4,
@@ -531,7 +531,7 @@ export const questions = [
         }
       },
       {
-        text: 'The ability to magically write hit songs',
+        text: 'Писать популярные твиты',
         id: 2,
         points: {
           useState: 10,
@@ -544,7 +544,7 @@ export const questions = [
         }
       },
       {
-        text: 'Super strength',
+        text: 'Суперсила',
         id: 3,
         points: {
           useState: 3,
@@ -557,7 +557,7 @@ export const questions = [
         }
       },
       {
-        text: 'The ability to fly',
+        text: 'Супертолератность',
         id: 4,
         points: {
           useState: 1,
@@ -570,7 +570,7 @@ export const questions = [
         }
       },
       {
-        text: 'Teleportation',
+        text: 'Телепортация',
         id: 5,
         points: {
           useState: 3,
@@ -584,7 +584,7 @@ export const questions = [
       },
 
       {
-        text: 'The ability to read minds',
+        text: 'Читать мысли',
         id: 6,
         points: {
           useState: 1,
@@ -597,7 +597,7 @@ export const questions = [
         }
       },
       {
-        text: 'The ability to breathe under water',
+        text: 'Дышать под водой',
         id: 7,
         points: {
           useState: 8,
@@ -615,24 +615,24 @@ export const questions = [
 
 export const hooks = {
   useState: {
-    description: 'You are useState!'
+    description: 'Ты useState!'
   },
   useReducer: {
-    description: 'You are useReducer!'
+    description: 'Ты useReducer!'
   },
   useCallback: {
-    description: 'You are useCallback!'
+    description: 'Ты useCallback!'
   },
   useImperativeHandle: {
-    description: 'You are useImperativeHandle!'
+    description: 'Ты useImperativeHandle!'
   },
   useEffect: {
-    description: 'You are useEffect!'
+    description: 'Ты useEffect!'
   },
   useRef: {
-    description: 'You are useRef!'
+    description: 'Ты useRef!'
   },
   useLayoutEffect: {
-    description: 'You are useLayoutEffect!'
+    description: 'Ты useLayoutEffect!'
   }
 }
