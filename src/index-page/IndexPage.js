@@ -28,7 +28,9 @@ export const IndexPage = () => {
       ))}
       {readyForSubmit && (
         <div className={s.submitSection}>
-          <button onClick={onSubmit}>Submit result!</button>
+          <button className={s.submitButton} onClick={onSubmit}>
+            Submit result!
+          </button>
         </div>
       )}
     </div>

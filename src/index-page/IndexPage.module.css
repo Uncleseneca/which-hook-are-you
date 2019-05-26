@@ -26,3 +26,13 @@
   font-size: 2rem;
   margin-bottom: 6rem;
 }
+
+.submitButton {
+  background-color: #0f65ef;
+  border-radius: 3px;
+  font-size: 2rem;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
