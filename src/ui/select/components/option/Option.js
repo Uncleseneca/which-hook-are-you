@@ -8,10 +8,10 @@ export const Option = ({ option: { image, id }, onClick, currentActive }) => {
   const isDisabled = isNumber(currentActive) && !isActive
   return (
     <div
-      className={cx(isActive && s.active, isDisabled && s.disabled)}
+      className={cx(s.option, isActive && s.active, isDisabled && s.disabled)}
       onClick={onClick}
     >
-      {image && <img src={image} alt="" />}
+      {image && <img className={s.image} src={image} alt="" />}
     </div>
   )
 }

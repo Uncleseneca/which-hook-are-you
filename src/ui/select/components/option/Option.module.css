@@ -1,7 +1,27 @@
+.option {
+  cursor: pointer;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
 .active {
   display: block;
 }
 
 .disabled {
   opacity: 0.4;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  will-change: transform;
+  transition: all 0.2s ease-in-out;
+}
+
+.option:hover .image {
+  transform: scale(1.2);
+  transform-origin: center;
 }

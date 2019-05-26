@@ -4,15 +4,18 @@ import './App.css'
 import { StoreContext } from 'redux-react-hook'
 import { store } from 'domain/store'
 import { IndexPage } from 'index-page'
+import { Container } from 'ui/container/Container'
 
 function App() {
   return (
     <StoreContext.Provider value={store}>
       <Router>
-        <Switch>
-          <Route path="/" exact component={IndexPage} />
-          <Route path="/answer" exact component={IndexPage} />
-        </Switch>
+        <Container>
+          <Switch>
+            <Route path="/" exact component={IndexPage} />
+            <Route path="/answer" exact component={IndexPage} />
+          </Switch>
+        </Container>
       </Router>
     </StoreContext.Provider>
   )
