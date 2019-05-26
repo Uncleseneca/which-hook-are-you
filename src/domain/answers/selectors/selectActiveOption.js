@@ -1,4 +1,4 @@
 import { get } from 'lodash'
 
-export const selectActiveOption = key => state =>
-  get(state.answers, `${key}.id`)
+export const selectActiveOption = question => state =>
+  get(state.answers, `${question}.id`)

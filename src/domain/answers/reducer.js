@@ -1,9 +1,9 @@
 import { createClearRedux } from 'redux-clear'
 export const { actions, reducer } = createClearRedux(
   {
-    addAnswer: state => (key, id, points) => ({
+    addAnswer: state => (question, id, points) => ({
       ...state,
-      [key]: { id, points }
+      [question]: { id, points }
     })
   },
   {},

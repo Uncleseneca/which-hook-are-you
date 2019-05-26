@@ -2,7 +2,7 @@
 
 export const questions = [
   {
-    question: 'Choose a color',
+    question: 'Pick a color',
     options: [
       {
         image: '/color/black.webp',
