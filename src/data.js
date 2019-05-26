@@ -6,6 +6,7 @@ export const questions = [
     options: [
       {
         image: '/color/black.webp',
+        id: 0,
         points: {
           useState: 10,
           useReducer: 5,
@@ -18,6 +19,7 @@ export const questions = [
       },
       {
         image: '/color/blue.webp',
+        id: 1,
         points: {
           useState: 4,
           useReducer: 4,
@@ -30,6 +32,7 @@ export const questions = [
       },
       {
         image: '/color/gray.webp',
+        id: 2,
         points: {
           useState: 10,
           useReducer: 4,
@@ -42,6 +45,7 @@ export const questions = [
       },
       {
         image: '/color/green.webp',
+        id: 3,
         points: {
           useState: 3,
           useReducer: 1,
@@ -54,6 +58,7 @@ export const questions = [
       },
       {
         image: '/color/orange.webp',
+        id: 4,
         points: {
           useState: 1,
           useReducer: 8,
@@ -66,6 +71,7 @@ export const questions = [
       },
       {
         image: '/color/pink.webp',
+        id: 5,
         points: {
           useState: 3,
           useReducer: 4,
@@ -79,6 +85,7 @@ export const questions = [
 
       {
         image: '/color/purple.webp',
+        id: 6,
         points: {
           useState: 1,
           useReducer: 6,
@@ -91,6 +98,7 @@ export const questions = [
       },
       {
         image: '/color/red.webp',
+        id: 7,
         points: {
           useState: 8,
           useReducer: 5,
@@ -103,6 +111,7 @@ export const questions = [
       },
       {
         image: '/color/yellow.webp',
+        id: 8,
         points: {
           useState: 3,
           useReducer: 9,
