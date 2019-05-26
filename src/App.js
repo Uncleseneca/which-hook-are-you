@@ -5,6 +5,7 @@ import { StoreContext } from 'redux-react-hook'
 import { store } from 'domain/store'
 import { IndexPage } from 'index-page'
 import { Container } from 'ui/container/Container'
+import { ResultPage } from 'result-page'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Container>
           <Switch>
             <Route path="/" exact component={IndexPage} />
-            <Route path="/answer" exact component={IndexPage} />
+            <Route path="/result/:hook" exact component={ResultPage} />
           </Switch>
         </Container>
       </Router>

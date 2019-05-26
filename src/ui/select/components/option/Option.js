@@ -8,8 +8,6 @@ export const Option = ({
   onClick,
   currentActive
 }) => {
-  console.log(currentActive)
-
   const isActive = id === currentActive
   const isDisabled = isNumber(currentActive) && !isActive
   const styles = cx(s.option, isActive && s.active, isDisabled && s.disabled)

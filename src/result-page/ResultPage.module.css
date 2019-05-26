@@ -3,26 +3,14 @@
   grid-row-gap: 6rem;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .hero {
   margin-left: auto;
   margin-right: auto;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 .image {
   width: 200px;
   height: auto;
-}
-
-.aside {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 6rem;
 }

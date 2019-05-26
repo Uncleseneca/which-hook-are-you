@@ -612,3 +612,27 @@ export const questions = [
     ]
   }
 ]
+
+export const hooks = {
+  useState: {
+    description: 'You are useState!'
+  },
+  useReducer: {
+    description: 'You are useReducer!'
+  },
+  useCallback: {
+    description: 'You are useCallback!'
+  },
+  useImperativeHandle: {
+    description: 'You are useImperativeHandle!'
+  },
+  useEffect: {
+    description: 'You are useEffect!'
+  },
+  useRef: {
+    description: 'You are useRef!'
+  },
+  useLayoutEffect: {
+    description: 'You are useLayoutEffect!'
+  }
+}
