@@ -8,13 +8,13 @@ export const Option = ({
   onClick,
   currentActive
 }) => {
+  console.log(currentActive)
+
   const isActive = id === currentActive
   const isDisabled = isNumber(currentActive) && !isActive
+  const styles = cx(s.option, isActive && s.active, isDisabled && s.disabled)
   return (
-    <div
-      className={cx(s.option, isActive && s.active, isDisabled && s.disabled)}
-      onClick={onClick}
-    >
+    <div className={styles} onClick={onClick}>
       {image && <img className={s.image} src={image} alt="" />}
       {text && (
         <div className={s.textContainer}>
