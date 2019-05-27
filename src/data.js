@@ -615,24 +615,31 @@ export const questions = [
 
 export const hooks = {
   useState: {
-    description: 'Ты useState!'
+    description: 'Ты useState!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useReducer: {
-    description: 'Ты useReducer!'
+    description: 'Ты useReducer!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useCallback: {
-    description: 'Ты useCallback!'
+    description: 'Ты useCallback!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useImperativeHandle: {
-    description: 'Ты useImperativeHandle!'
+    description: 'Ты useImperativeHandle!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useEffect: {
-    description: 'Ты useEffect!'
+    description: 'Ты useEffect!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useRef: {
-    description: 'Ты useRef!'
+    description: 'Ты useRef!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   },
   useLayoutEffect: {
-    description: 'Ты useLayoutEffect!'
+    description: 'Ты useLayoutEffect!',
+    link: 'https://reactjs.org/docs/hooks-reference.html#usestate'
   }
 }

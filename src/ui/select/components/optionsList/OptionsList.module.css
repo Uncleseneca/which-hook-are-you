@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen {
+@media (max-width: 600px) {
   .withImage {
     grid-template-columns: 1fr 1fr;
   }
