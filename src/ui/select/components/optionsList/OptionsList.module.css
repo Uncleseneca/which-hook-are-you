@@ -4,6 +4,12 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen {
+  .withImage {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .text {
   display: grid;
   grid-gap: 10px;

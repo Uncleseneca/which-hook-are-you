@@ -36,3 +36,8 @@
   border: none;
   cursor: pointer;
 }
+
+.submitSection {
+  margin-left: auto;
+  margin-right: auto;
+}

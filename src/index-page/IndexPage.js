@@ -21,7 +21,7 @@ export const IndexPage = () => {
         <img className={s.image} src="/thinking.png" alt="" />
       </header>
       <aside className={s.aside}>
-        <p>Ответь на вопросы узнай, какой ты хук!</p>
+        <p>Ответь на вопросы и узнай, какой ты хук!</p>
       </aside>
       {questions.map(question => (
         <Select key={question.question} question={question} />
