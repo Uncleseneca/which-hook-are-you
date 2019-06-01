@@ -12,7 +12,7 @@ export const ResultPage = withRouter(({ match: { params } }) => {
       <div className={s.hero}>
         <h1 className={s.description}>{hook.description}</h1>
         <img className={s.image} src="/thumsup.jpg" alt="" />
-        <p>{hook.text}</p>
+        <p className={s.text}>{hook.text}</p>
         <a href={hook.link}>Ссылка на документацию</a>
       </div>
     </div>
