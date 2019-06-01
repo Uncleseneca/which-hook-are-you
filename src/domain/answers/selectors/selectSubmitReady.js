@@ -1,7 +1,9 @@
-import { size } from 'lodash'
-
 export const selectSubmitReady = state => {
-  const answersAmount = size(state.answers)
-  const questionsAmount = size(state.questions.data)
-  return answersAmount === questionsAmount
+  const questionNames = state.questions.data.map(question => question.question)
+  const answerNames = Object.keys(state.answers)
+
+  const isSubmitReady = questionNames.every(questionName =>
+    answerNames.includes(questionName)
+  )
+  return isSubmitReady
 }
