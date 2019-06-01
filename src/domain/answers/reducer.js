@@ -4,7 +4,8 @@ export const { actions, reducer } = createClearRedux(
     addAnswer: state => (question, id, points) => ({
       ...state,
       [question]: { id, points }
-    })
+    }),
+    reset: () => () => ({})
   },
   {},
   'questions'

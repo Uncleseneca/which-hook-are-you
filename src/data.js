@@ -394,33 +394,7 @@ export const questions = [
     type: 'text',
     options: [
       {
-        text: 'На свиданке',
-        id: 0,
-        points: {
-          useState: 10,
-          useReducer: 5,
-          useCallback: 8,
-          useImperativeHandle: 6,
-          useEffect: 7,
-          useRef: 7,
-          useLayoutEffect: 3
-        }
-      },
-      {
-        text: 'Думаю о бывшей',
-        id: 1,
-        points: {
-          useState: 4,
-          useReducer: 10,
-          useCallback: 1,
-          useImperativeHandle: 5,
-          useEffect: 5,
-          useRef: 4,
-          useLayoutEffect: 3
-        }
-      },
-      {
-        text: 'Провожу время с семьей',
+        text: 'Со своей второй половинкой',
         id: 2,
         points: {
           useState: 5,
@@ -443,6 +417,19 @@ export const questions = [
           useEffect: 3,
           useRef: 4,
           useLayoutEffect: 1
+        }
+      },
+      {
+        text: 'На свиданке',
+        id: 0,
+        points: {
+          useState: 10,
+          useReducer: 5,
+          useCallback: 8,
+          useImperativeHandle: 6,
+          useEffect: 7,
+          useRef: 7,
+          useLayoutEffect: 3
         }
       },
       {
@@ -483,6 +470,19 @@ export const questions = [
           useEffect: 5,
           useRef: 5,
           useLayoutEffect: 10
+        }
+      },
+      {
+        text: 'Думаю о бывшей',
+        id: 1,
+        points: {
+          useState: 4,
+          useReducer: 10,
+          useCallback: 1,
+          useImperativeHandle: 5,
+          useEffect: 5,
+          useRef: 4,
+          useLayoutEffect: 3
         }
       },
       {
