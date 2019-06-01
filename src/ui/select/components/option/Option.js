@@ -13,7 +13,11 @@ export const Option = ({
   const styles = cx(s.option, isActive && s.active, isDisabled && s.disabled)
   return (
     <div className={styles} onClick={onClick}>
-      {image && <img className={s.image} src={image} alt="" />}
+      {image && (
+        <div className={s.imageContainer}>
+          <img className={s.image} src={image} alt="" />
+        </div>
+      )}
       {text && (
         <div className={s.textContainer}>
           <p className={s.text}>{text}</p>

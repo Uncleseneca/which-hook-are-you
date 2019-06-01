@@ -128,7 +128,7 @@ export const questions = [
     type: 'withImage',
     options: [
       {
-        image: '/color/black.webp',
+        image: '/movie/brother.png',
         text: '"Брат"',
         id: 0,
         points: {
@@ -142,7 +142,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/blue.webp',
+        image: '/movie/zhmurki.png',
         text: '"Жмурки"',
         id: 1,
         points: {
@@ -156,7 +156,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/gray.webp',
+        image: '/movie/indiana.png',
         text: '"Индиана Джонс и последний крестовый поход"',
         id: 2,
         points: {
@@ -170,7 +170,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/green.webp',
+        image: '/movie/godfather.png',
         text: '"Крестный отец"',
         id: 3,
         points: {
@@ -184,7 +184,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/orange.webp',
+        image: '/movie/beauty.png',
         text: '"Красотка"',
         id: 4,
         points: {
@@ -198,7 +198,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/pink.webp',
+        image: '/movie/avengers.png',
         text: '"Мстители: финал"',
         id: 5,
         points: {
@@ -213,7 +213,7 @@ export const questions = [
       },
 
       {
-        image: '/color/purple.webp',
+        image: '/movie/revenant.png',
         text: '"Выживший"',
         id: 6,
         points: {
@@ -227,7 +227,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/red.webp',
+        image: '/movie/nocountry.png',
         text: '"Старикам здесь не место"',
         id: 7,
         points: {
@@ -241,7 +241,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/yellow.webp',
+        image: '/movie/animals.png',
         text: '"Тайная жизнь домашних животных 2"',
         id: 8,
         points: {
@@ -261,7 +261,7 @@ export const questions = [
     type: 'withImage',
     options: [
       {
-        image: '/color/black.webp',
+        image: '/song/despacito.png',
         text: 'Luis Fonsi: "Despacito"',
         id: 0,
         points: {
@@ -275,7 +275,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/blue.webp',
+        image: '/song/adele.png',
         text: 'Adele: "Rolling in the deep"',
         id: 1,
         points: {
@@ -289,7 +289,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/gray.webp',
+        image: '/song/beegees.png',
         text: 'Bee Gees: "How deep is your love"',
         id: 2,
         points: {
@@ -303,7 +303,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/green.webp',
+        image: '/song/hellsbells.png',
         text: 'AC/DC: "Hells bells"',
         id: 3,
         points: {
@@ -317,7 +317,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/orange.webp',
+        image: '/song/survivor.png',
         text: 'Survivor: "Eye of the tiger"',
         id: 4,
         points: {
@@ -331,7 +331,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/pink.webp',
+        image: '/song/gaye.png',
         text: 'Marvin Gaye: "Lets get it on"',
         id: 5,
         points: {
@@ -346,7 +346,7 @@ export const questions = [
       },
 
       {
-        image: '/color/purple.webp',
+        image: '/song/pharell.png',
         text: 'Pharell Williams: "Happy"',
         id: 6,
         points: {
@@ -360,7 +360,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/red.webp',
+        image: '/song/shortpairs.png',
         text: 'Shortparis: "Страшно"',
         id: 7,
         points: {
@@ -374,7 +374,7 @@ export const questions = [
         }
       },
       {
-        image: '/color/yellow.webp',
+        image: '/song/arctic.png',
         text: 'Arctic Monkeys: "Four out of five"',
         id: 8,
         points: {

@@ -4,6 +4,7 @@ import { useThunk } from '@breadhead/thunk-utils'
 import { OptionsList } from './components/optionsList/OptionsList'
 import { useMappedState } from 'redux-react-hook'
 import { selectActiveOption } from 'domain/answers/selectors/selectActiveOption'
+import s from './Section.module.css'
 import { actions as answersActions } from 'domain/answers/reducer'
 
 export const Select = ({ question: { question, options, type } }) => {
@@ -18,7 +19,7 @@ export const Select = ({ question: { question, options, type } }) => {
   )
 
   return (
-    <section>
+    <section className={s.section}>
       <Title title={question} />
       <OptionsList
         active={active}
