@@ -29,7 +29,7 @@ export const IndexPage = () => {
       {readyForSubmit && (
         <div className={s.submitSection}>
           <button className={s.submitButton} onClick={onSubmit}>
-            Отправить!
+            Узнать всю правду!
           </button>
         </div>
       )}
